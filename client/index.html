@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <script defer src="./static/js/index.js"></script>
+    <title>Telegraph</title>
+</head>
+<body>
+    <main>
+        <form>
+            <input type="text" name="title-input" id="title-input" placeholder="Title" required>
+            <input type="text" name="author-input" id="author-input" placeholder="Your name" required>
+            <textarea type="text" name="description-input" id="description-input" placeholder="Your Story" required></textarea>
+            <button id="submit-btn">PUBLISH</button>
+        </form>
+    </main>
+    <section id="content">
+        <h1 id="title-info"></h1>
+        <h3 id="name-info"></h3>
+        <h3 id="date-info"></h3>
+        <h5 id="description-info"></h5>
+    </section>
+</body>
+</html>
